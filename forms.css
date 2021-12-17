@@ -1,0 +1,78 @@
+.box {
+  width: 99% !important;
+  margin: 0 auto;
+  border: 3px solid black !important;
+  padding: 50px !important;
+  border-radius: 2% !important;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) !important;
+}
+@media screen and (max-width: 600px) {
+  .box {
+    width: 99% !important;
+    border-radius: 5% !important;
+  }
+  #register {
+    margin-bottom: 10px;
+  }
+  #register {
+    display: block !important;
+    width: 65% !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+  }
+  #GENERATE {
+    display: block !important;
+    width: 99% !important;
+    margin: auto !important;
+  }
+}
+button {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) !important;
+}
+textarea {
+  resize: none !important;
+}
+#subnewtopic {
+  background-color: #fff;
+  min-height: 50px;
+  border-radius: 5px;
+}
+
+body {
+  width: 100%;
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#register {
+  margin-right: 10px;
+  display: block;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#GENERATE {
+  display: block;
+  width: 45%;
+  margin: auto;
+}
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
